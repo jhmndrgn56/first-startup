@@ -1,0 +1,45 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    background: url(./header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: ;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 1.2em;
+    border-radius: 100px;
+    width: 14rem;
+    padding: 10px;
+}
+
+.btn-secondary:hover span {
+    display: none;
+}
+
+.btn-secondary:hover:before {
+    content: "Now!";
+    transition: all 2s;
+}
+
+.buffer {
+    height: 25vh;
+}
+
+/* .btn-xl {
+    padding: 0.5rem 1rem;
+} */
